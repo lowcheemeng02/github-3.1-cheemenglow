@@ -30,4 +30,6 @@
 7. Revert
     - `git revert <HASH>`: undo the change in the code that are part of the commit <HASH> and make a new commit
 
+8. Merge
+    - `git merge <another_br>`: merge <another_br> onto the current branch
 
