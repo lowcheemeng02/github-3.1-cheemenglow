@@ -33,3 +33,36 @@
 8. Merge
     - `git merge <another_br>`: merge <another_br> onto the current branch
 
+9. Log
+    - `git log`: view logs
+    - `git log --online`: view logs in concise way
+
+10. Cherry-pick
+    - `git cherry pick <hash>`: pick <hash> and apply the changes to the current branch
+
+11. Clone
+    - `git clone <link>`: clone a repo
+
+12. Stash
+    - `git stash`: save uncommitted changes in current branch into a stash to be applied later
+    - `git stash apply`: re-apply the stashed changes to the current branch
+
+13. Remote
+    - `git remote -v`: view details of remote
+    - `git remote add <remote name> <url>`: add a new remote
+    - `git remote set-url <remote_name> <new_url>`: change the link of an existing remote
+    - `git remote remove <remote_name>`: remove remote
+
+14. Init
+    - `git init`: start tracking the files in a folder
+
+15. Pull
+    - `git pull`: pull the changes from the remote to the local branch
+
+# Most often used commands
+
+`git add`, `git commit`, `git push`, `git pull`, and also `git merge` are most often used. These are the basic commands when working with changes in the local and remote branches
+
+# What is GitHub Authentication
+
+This is 2FA authentication is a two layer security measure for logging in to Github. The first layer requires the user to log in using the username and password. The second layer requires the user to get an authorisation code from a mobile app.
