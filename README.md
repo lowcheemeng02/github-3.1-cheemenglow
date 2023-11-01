@@ -25,7 +25,7 @@
 6. Reset
     - `git reset --soft HEAD~N`: undo the last N commits while keeping the changes in the files
     - `git reset --hard HEAD~N`: undo the last N commits and don't keep the changes in the files
-    - `git reset --<soft/soft> <HASH>`: do reset with reference to a commit hash
+    - `git reset --<soft/hard> <HASH>`: do reset with reference to a commit hash
 
 7. Revert
     - `git revert <HASH>`: undo the change in the code that are part of the commit <HASH> and make a new commit
